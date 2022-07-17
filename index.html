@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Naix HQ</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <title>Naixatloz, Inc.</title>
 </head>
 <style>
   html {
@@ -12,53 +9,31 @@
     overflow: hidden;
   }
   body {
-    background-image: url('https://drive.google.com/uc?id=1Oy6eWioe9thdGH-TrdmAUNyJhA02PJhn&export=download');
-    background-size: cover;
+    background-image: url('https://drive.google.com/uc?id=1m1AGAO7GMoq8Z-r7J5pG27kr6clWlkVj&export=download');
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right;
     background-color: #000000;
   }
-  #tokiko {
-  	bottom:-1px;
-    right:0px;
-    position:absolute;
-    z-index:2;
-  }
   .box {
-    background-color: rgba(0,0,0,.5);
+  	background-color: rgba(0,0,0,.5);
     color: #FFFFFF;
     margin: 0px;
     padding: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-70%, -20%);
-    transform: translate(-70%, -20%);
+    top: 25%;
+    left: 30px;
   }
-  .box h2 {
-    white-space: pre-wrap;
+  .box font {
+  	white-space: pre-wrap;
     margin: 0px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Garamond', monospace;
+    font-size: 2vw;
   }
 </style>
-<body onload="typeWriter();">
-<script>
-  var i = 0;
-  var txt = 'Avenge me, Miro...\n\nThen rewrite the code of the simulation to bring me back in and together we can emancipate everyone trapped in that virtual world!';
-  var speed = 50;
-
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("instruct").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-</script>
+<body>
 <div class="box">
-<h2 id="instruct"></h2>
+<font>It is with great sadness that we inform you of the passing of <br/>our beloved President of the Japan Branch, Tokiko Shigure.<br/><br/>She had been a valued member of our organization since the <br/>early days of its inception. She continually upheld the beliefs <br/>of Naixatloz and relentlessly fought for a better future for <br/>everyone in this world.<br/><br/>If you are interested in honoring the memory of <br/>President Shigure, please visit <a href="https://naixhq.com/">Naix HQ</a> for more information.
+</font>
 </div>
-<img id="tokiko" src="https://drive.google.com/uc?id=1-VgX5GJUyCORICEBbMlg2FGPtpTtl1sV&export=download" />
 </body>
-
-</html>
